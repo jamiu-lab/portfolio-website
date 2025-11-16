@@ -1665,6 +1665,7 @@ footer {
   .contact-form-container {
     justify-self: center;
     align-self: center;
+    width: 17rem;
   }
   .footer {
     align-items: center;
