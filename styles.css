@@ -1454,8 +1454,6 @@ footer {
 .footer {
   background: linear-gradient(135deg, #424fc7 0%, #1f2549 100%);
   display: flex;
-  justify-content: center;
-  align-items: start;
   flex-wrap: wrap;
   color: white;
   padding-left: 1rem;
@@ -1689,6 +1687,13 @@ footer {
     height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 431px) {
+  /* Mobile Menu Button */
+  .footer-section {
+    max-width: 12rem;
   }
 }
 
