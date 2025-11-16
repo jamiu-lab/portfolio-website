@@ -1470,6 +1470,11 @@ footer {
 .footer p {
   line-height: 2.5rem;
 }
+
+.logo img {
+  width: 2rem;
+  border-radius: 50px;
+}
 .footer-section ul {
   list-style: none;
   padding: 0;
