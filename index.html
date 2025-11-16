@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamiu Siddiq - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+      <div class="loader-name">Jamiu Siddiq</div>
+      <div class="spinner"></div>
+      <div class="progress-message">Preparing Portfolio...</div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+      <div class="progress-percentage" id="progress-percentage">0%</div>
+    </div>
+
+    <!-- Sidebar Navigation -->
+    <!-- <button id="mobileMenuBtn" class="mobile-menu-btn">☰</button>
+
+    <nav id="sidebar-nav">
+      <ul>
+        <li>
+          <a href="#home" class="nav-link active"
+            ><i class="fas fa-home"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link"><i class="fas fa-user"></i></a>
+        </li>
+        <li>
+          <a href="#stats" class="nav-link"
+            ><i class="fas fa-chart-line"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#current-job" class="nav-link"
+            ><i class="fas fa-building"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#skills" class="nav-link"><i class="fas fa-tools"></i></a>
+        </li>
+        <li>
+          <a href="#projects" class="nav-link"
+            ><i class="fas fa-code-branch"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#experience" class="nav-link"
+            ><i class="fas fa-briefcase"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#testimonials" class="nav-link"
+            ><i class="fas fa-star"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#education" class="nav-link"
+            ><i class="fas fa-graduation-cap"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#faq" class="nav-link"><i class="fas fa-question"></i></a>
+        </li>
+      </ul>
+    </nav> -->
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="home-text">
+        <div class="typing-container">
+          <!-- First line -->
+          <div class="greeting">
+            <span id="typing-hi"></span>
+          </div>
+
+          <!-- Second line -->
+          <div class="title">
+            <span id="typing-title"></span>
+            <!-- third line -->
+            <span id="secondTitle"></span>
+          </div>
+        </div>
+
+        <div class="description">Crafting digital experiences</div>
+        <div class="cta-buttons">
+          <a href="#projects"
+            ><button class="btn-primary">View Projects</button></a
+          >
+          <button class="btn-secondary">Contact Me</button>
+        </div>
+      </div>
+      <div class="home-graphic">
+        <div class="robot">
+          <div class="head">
+            <div class="ear left"></div>
+            <div class="ear right"></div>
+            <div class="face">
+              <div class="eye left"></div>
+              <div class="eye right"></div>
+              <div class="smile"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- About Section -->
+      <section id="about">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="subtitle">
+            E-commerce Developer and graphic designer building digital
+            experiences.
+          </p>
+        </div>
+
+        <div class="about-container">
+          <img
+            class="profile-pic"
+            src="thumbnails/profile-picture.jpg"
+            alt="Profile Picture"
+          />
+          <div class="text-content">
+            <p class="intro">Hi, I'm <span>Jamiu Siddiq</span></p>
+            <p class="description">
+              I'm Jamiu Siddiq, a driven web developer with a passion for
+              crafting innovative, responsive, and intuitive digital
+              experiences. I thrive on transforming concepts into tangible
+              online solutions that empower individuals and businesses to thrive
+              in the digital landscape. Through <strong>VISION DIGITAL</strong>,
+              my creative outlet, I merge artistry and technology to design and
+              develop sleek, engaging, and results-driven websites.
+            </p>
+            <p class="description" style="margin-top: 15px">
+              When I'm not coding or designing, you'll find me exploring new
+              technologies, creating digital art, contributing to open source
+              projects, or sharing knowledge with the developer community.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats and Services Section -->
+      <section id="stats">
+        <div class="stats-container" role="region" aria-label="Key statistics">
+          <div class="stat-box" tabindex="0">
+            <div class="stat-number">25+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat-box" tabindex="0">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+          <div class="stat-box" tabindex="0">
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-box" tabindex="0">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Commitment</div>
+          </div>
+        </div>
+
+        <div
+          class="services-container"
+          role="region"
+          aria-label="Services offered"
+        >
+          <div class="service-item" tabindex="0">
+            <span class="service-icon"></span>
+            <span class="service-label">Clean Code</span>
+          </div>
+          <div class="service-item" tabindex="0">
+            <span class="service-icon"></span>
+            <span class="service-label">Responsive Design</span>
+          </div>
+          <div class="service-item" tabindex="0">
+            <span class="service-icon"></span>
+            <span class="service-label">Frontend Development</span>
+          </div>
+          <div class="service-item" tabindex="0">
+            <span class="service-icon"></span>
+            <span class="service-label">Timely Delivery</span>
+          </div>
+          <div class="service-item" tabindex="0">
+            <span class="service-icon"></span>
+            <span class="service-label">Team Collaboration</span>
+          </div>
+          <div class="service-item" tabindex="0">
+            <span class="service-icon"></span>
+            <span class="service-label">Maintenance &amp; Support</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Currently Working At Section -->
+      <!-- <section id="current-job">
+        <div class="subheading">
+          <h2>Currently Working At</h2>
+          <p>Proud to be part of an innovative software development team</p>
+        </div>
+        <div class="container">
+          <div class="card-container">
+            <div class="company-logo" aria-label="SoftCode Logo">SC</div>
+            <a href="#" class="company-name">SoftCode</a>
+            <div class="job-title">Senior Full Stack Developer</div>
+            <div class="duration">2025</div>
+            <p class="description">
+              Transforming ideas into powerful digital solutions. We combine
+              technologies with intuitive user software that drives innovation,
+              efficiency, and growth.
+            </p>
+            <div class="links">
+              <a href="#">Virtual Conference</a>
+              <a href="#">Job Ads</a>
+              <a href="#">Create a Resume</a>
+              <a href="#">AI Resume Writing</a>
+            </div>
+            <a href="#" class="main-button" aria-label="Visit Company Website"
+              >Visit Company Website</a
+            >
+            <div class="skills-list">
+              <span class="skill">Web Development</span>
+              <span class="skill">Mobile Development</span>
+              <span class="skill">Cloud Solutions</span>
+              <span class="skill">Content Management</span>
+              <span class="skill">Security Solutions</span>
+              <span class="skill">24/7 Support</span>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h2 style="margin-bottom: 40px">My skills & Tools</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <h3>HTML5</h3>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS3</h3>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-js-square"></i>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-react"></i>
+            <h3>React</h3>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-git-alt"></i>
+            <h3>Git</h3>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-node-js"></i>
+            <h3>Node.js</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <div class="projects-container-wrapper">
+          <h2>My Projects</h2>
+          <p class="projects-subtitle">
+            Collection of my latest software development and design projects
+          </p>
+
+          <div class="projects-container">
+            <div class="project-card">
+              <div class="project-image">
+                <span class="tag">Completed</span>
+                <img
+                  src="thumbnails/6pm.png"
+                  alt="E-commerce website for 6pmseason homepage design with HTML, CSS, and JavaScript"
+                />
+              </div>
+              <div class="project-body">
+                <div class="project-title">6PM Season - Shopify store</div>
+                <div class="project-desc">
+                  A sleek online store buit to deliver style, speed, and
+                  simplicity - perfect crafted for every season.
+                </div>
+                <div class="project-tags">
+                  <span>shopify</span>
+                  <span>E-commerce store</span>
+                  <span>website</span>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div>8 forks</div>
+                <div class="stars">★★★★★</div>
+              </div>
+              <div class="buttons">
+                <a
+                  href="https://www.6pmseason.com/?srsltid=AfmBOoodaZfTyhDnA6HmPehruNp6Fn6d2EGa6Yeb26DWOS4CCT4mme_E"
+                  target="_blank"
+                >
+                  <button class="visit-btn">Visit Project</button></a
+                >
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="thumbnails/Homestro.png"
+                  alt="E-commerce website for homes-tro homepage design with HTML, CSS, and JavaScript"
+                />
+                <span class="tag">Completed</span>
+              </div>
+              <div class="project-body">
+                <div class="project-title">Homestro - Shopify store</div>
+                <div class="project-desc">
+                  Professional shpify store built for modern clothing brand
+                </div>
+                <div class="project-tags">
+                  <span>online store</span>
+                  <span>shopify theme</span>
+                  <span>store setup</span>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div>6 forks</div>
+                <div class="stars">★★★★★</div>
+              </div>
+              <div class="buttons">
+                <a
+                  href="https://homes-tro.com/?srsltid=AfmBOor9GE9j4ztnXUprdoNDfBYTVJ65GIGFM9C47UctqwLifyG9NrzJ"
+                  target="_blank"
+                >
+                  <button class="visit-btn">Visit Project</button></a
+                >
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="thumbnails/trendklo.com.png"
+                  alt="E-commerce website for trendklo homepage design with HTML, CSS, and JavaScript"
+                />
+                <span class="tag">Completed</span>
+              </div>
+              <div class="project-body">
+                <div class="project-title">Trendklo - Shopify store</div>
+                <div class="project-desc">
+                  Professional shpify store built for modern clothing brand
+                </div>
+                <div class="project-tags">
+                  <span>website</span>
+                  <span>clothing brand</span>
+                  <span>storefront</span>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div>7 forks</div>
+                <div class="stars">★★★★★</div>
+              </div>
+              <div class="buttons">
+                <a href="https://trendklo.com/" target="_blank">
+                  <button class="visit-btn">Visit Project</button></a
+                >
+              </div>
+            </div>
+
+            <div class="project-card hidden-card">
+              <div class="project-image">
+                <img
+                  src="thumbnails/cheapstuff.png"
+                  alt="E-commerce website for cheapstuff2 homepage design with HTML, CSS, and JavaScript"
+                />
+                <span class="tag">Completed</span>
+              </div>
+              <div class="project-body">
+                <div class="project-title">Cheapstuff - Shopify store</div>
+                <div class="project-desc">
+                  A streamlined online store designed to convert visitores into
+                  loyal
+                </div>
+                <div class="project-tags">
+                  <span>website</span>
+                  <span>clothing brand</span>
+                  <span>storefront</span>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div>7 forks</div>
+                <div class="stars">★★★★★</div>
+              </div>
+              <div class="buttons">
+                <a href="https://cheapstuff2.com/" target="_blank">
+                  <button class="visit-btn">Visit Project</button></a
+                >
+              </div>
+            </div>
+
+            <div class="project-card hidden-card">
+              <div class="project-image">
+                <img
+                  src="thumbnails/petalandpup.png"
+                  alt="E-commerce website for petalandpup homepage design with HTML, CSS, and JavaScript"
+                />
+                <span class="tag">Completed</span>
+              </div>
+              <div class="project-body">
+                <div class="project-title">Petalandpup - Shopify store</div>
+                <div class="project-desc">
+                  A flexible website layout that adapts beautifully across all
+                  devices, delivering a seamless user experience.
+                </div>
+                <div class="project-tags">
+                  <span>E-commerce</span>
+                  <span>clothing brand</span>
+                  <span>storefront</span>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div>5 forks</div>
+                <div class="stars">★★★★★</div>
+              </div>
+              <div class="buttons">
+                <a href="https://petalandpup.com/" target="_blank">
+                  <button class="visit-btn">Visit Project</button></a
+                >
+              </div>
+            </div>
+
+            <div class="project-card hidden-card">
+              <div class="project-image">
+                <img
+                  src="thumbnails/primowears.png"
+                  alt="E-commerce website for primowears homepage design with HTML, CSS, and JavaScript"
+                />
+                <span class="tag">Completed</span>
+              </div>
+              <div class="project-body">
+                <div class="project-title">Primowears - Shopify store</div>
+                <div class="project-desc">
+                  Search engine strategies tailored to rank higher and attract
+                  organic, traffic and grow your online presence.
+                </div>
+                <div class="project-tags">
+                  <span>website</span>
+                  <span>clothing brand</span>
+                  <span>shopify store</span>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div>3 forks</div>
+                <div class="stars">★★★★★</div>
+              </div>
+              <div class="buttons">
+                <a href="https://primowears.com/" target="_blank">
+                  <button class="visit-btn">Visit Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <button class="view-more-btn">View More</button>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="professional-experience">
+        <div
+          class="professional-experience-wrapper"
+          style="margin-bottom: 8rem"
+        >
+          <h2 class="professional-experience-wrapper h2">
+            Professional Experience
+          </h2>
+
+          <!-- 1️⃣ E-commerce Developer -->
+          <article class="card">
+            <div>
+              <div class="card-head">
+                <div class="logo">E-C</div>
+                <div>
+                  <div class="role">E-commerce Developer</div>
+                  <div class="company">Freelance</div>
+                </div>
+              </div>
+              <p class="desc">
+                Architecting high-performing online stores with optimized user
+                journeys, payment integration, and mobile responsiveness for
+                better conversion rates.
+              </p>
+              <div class="tags">
+                <span class="tag">Shopify</span
+                ><span class="tag">WooCommerce</span
+                ><span class="tag">Payment API</span><span class="tag">UX</span>
+              </div>
+            </div>
+            <div class="bullets">
+              <ul>
+                <li>
+                  Built 15+ e-commerce sites improving sales conversion by 20%.
+                </li>
+                <li>Integrated Paystack and Stripe for seamless checkout.</li>
+                <li>Optimized loading speed with lazy-loading and caching.</li>
+              </ul>
+              <div class="meta">
+                <span class="pill">Freelance</span
+                ><span class="pill">Remote</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2️⃣ Shopify Specialist -->
+          <article class="card">
+            <div>
+              <div class="card-head">
+                <div class="logo">SS</div>
+                <div>
+                  <div class="role">Shopify Specialist</div>
+                  <div class="company">Shopify Pro Team</div>
+                </div>
+              </div>
+              <p class="desc">
+                Helping brands build custom Shopify themes, automate sales
+                processes, and design conversion-friendly landing pages for
+                growth.
+              </p>
+              <div class="tags">
+                <span class="tag">Liquid</span
+                ><span class="tag">Theme Customization</span
+                ><span class="tag">Speed Optimization</span
+                ><span class="tag">Conversion</span>
+              </div>
+            </div>
+            <div class="bullets">
+              <ul>
+                <li>Reduced bounce rate by 35% through UX improvements.</li>
+                <li>Created modular templates improving workflow by 40%.</li>
+                <li>Integrated marketing analytics dashboards.</li>
+              </ul>
+              <div class="meta">
+                <span class="pill">Contract</span
+                ><span class="pill">E-commerce</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3️⃣ SEO Optimization -->
+          <article class="card">
+            <div>
+              <div class="card-head">
+                <div class="logo">SEO</div>
+                <div>
+                  <div class="role">SEO Optimization</div>
+                  <div class="company">Organic Boost Studio</div>
+                </div>
+              </div>
+              <p class="desc">
+                Improving search visibility through technical SEO, structured
+                data, and optimized content strategy to drive organic traffic
+                and ROI.
+              </p>
+              <div class="tags">
+                <span class="tag">SEO</span
+                ><span class="tag">Schema Markup</span
+                ><span class="tag">Content Strategy</span
+                ><span class="tag">Google Analytics</span>
+              </div>
+            </div>
+            <div class="bullets">
+              <ul>
+                <li>Boosted organic traffic by 130% in 6 months.</li>
+                <li>Implemented keyword strategy improving CTR by 40%.</li>
+                <li>Enhanced website ranking for key e-commerce terms.</li>
+              </ul>
+              <div class="meta">
+                <span class="pill">Consulting</span
+                ><span class="pill">Analytics</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4️⃣ Front-End Developer -->
+          <article class="card">
+            <div>
+              <div class="card-head">
+                <div class="logo">FE</div>
+                <div>
+                  <div class="role">Front-End Web Developer</div>
+                  <div class="company">Webify Labs</div>
+                </div>
+              </div>
+              <p class="desc">
+                Designing and developing fast, responsive interfaces that align
+                with brand goals, ensuring seamless experiences across all
+                devices.
+              </p>
+              <div class="tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span
+                ><span class="tag">JavaScript</span
+                ><span class="tag">React</span>
+              </div>
+            </div>
+            <div class="bullets">
+              <ul>
+                <li>Developed custom UI layouts for business websites.</li>
+                <li>Ensured cross-browser and cross-device compatibility.</li>
+                <li>Collaborated with designers to refine brand visuals.</li>
+              </ul>
+              <div class="meta">
+                <span class="pill">Remote</span
+                ><span class="pill">Web Design</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5️⃣ Email Marketing & Klaviyo -->
+          <article class="card">
+            <div>
+              <div class="card-head">
+                <div class="logo">EM</div>
+                <div>
+                  <div class="role">Email Marketing & Klaviyo Specialist</div>
+                  <div class="company">Growth Automations</div>
+                </div>
+              </div>
+              <p class="desc">
+                Creating automated email flows, personalized campaigns, and
+                customer segmentation strategies to increase retention and
+                revenue.
+              </p>
+              <div class="tags">
+                <span class="tag">Klaviyo</span
+                ><span class="tag">Email Automation</span
+                ><span class="tag">Campaigns</span
+                ><span class="tag">Copywriting</span>
+              </div>
+            </div>
+            <div class="bullets">
+              <ul>
+                <li>
+                  Increased open rates by 50% with optimized subject lines.
+                </li>
+                <li>
+                  Built automated flows for abandoned cart & welcome series.
+                </li>
+                <li>Drove 25% more repeat purchases with tailored content.</li>
+              </ul>
+              <div class="meta">
+                <span class="pill">Marketing</span
+                ><span class="pill">Remote</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="contact-container">
+          <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <p class="subtitle">
+              Ready to start your next project? Let's discuss your requirement
+            </p>
+            <div class="info-item">
+              <div class="icon-box">📧</div>
+              <div class="info-text">
+                Email<br /><strong>jamiusiddiq@outlook.com</strong>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon-box">📞</div>
+              <div class="info-text">
+                Phone<br /><strong>+234 902 4018 884</strong>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon-box">📍</div>
+              <div class="info-text">
+                Location<br /><strong>DreamSt, NG, Street</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <div id="statusMsg" class="status-msg"></div>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="John Michael"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="+234 812 345 6789"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="example@email.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="company">Company Name</label>
+                <input
+                  type="text"
+                  name="company"
+                  id="company"
+                  placeholder="Company Ltd"
+                />
+              </div>
+              <div class="form-group full-width">
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="5"
+                  placeholder="Write your message here..."
+                ></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testiomonial Section -->
+
+      <section id="testimonials">
+        <div class="testimonials-container">
+          <h2>What Clients Say</h2>
+          <div class="testimonials-wrapper">
+            <div class="testimonial-card">
+              <img src="client1.jpg" alt="Client A" class="client-img" />
+              <p class="quote">
+                "Jamiu exceeded our expectations! The website looks amazing."
+              </p>
+              <h3 class="client-name">Client A</h3>
+              <span class="client-role">Trendklo</span>
+            </div>
+            <div class="testimonial-card">
+              <img src="client2.jpg" alt="Client B" class="client-img" />
+              <p class="quote">
+                "Professional and timely. Highly recommend Jamiu."
+              </p>
+              <h3 class="client-name">Client B</h3>
+              <span class="client-role">TrendyStore</span>
+            </div>
+            <div class="testimonial-card">
+              <img src="client3.jpg" alt="Client C" class="client-img" />
+              <p class="quote">
+                "The Shopify store design was excellent. Sales improved!"
+              </p>
+              <h3 class="client-name">Client C</h3>
+              <span class="client-role">Primowears</span>
+            </div>
+            <div class="testimonial-card">
+              <img src="client4.jpg" alt="Client D" class="client-img" />
+              <p class="quote">
+                "Creative, responsive, and easy to work with. Will hire again!"
+              </p>
+              <h3 class="client-name">Client D</h3>
+              <span class="client-role">Webify Labs</span>
+            </div>
+            <div class="testimonial-card">
+              <img src="client5.jpg" alt="Client E" class="client-img" />
+              <p class="quote">
+                "Attention to detail. Perfectly matched our brand."
+              </p>
+              <h3 class="client-name">Client E</h3>
+              <span class="client-role">FashionHub</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section class="education">
+        <h2>Education & Certifications</h2>
+        <p class="subtitle">
+          Academic background and professional qualifications
+        </p>
+
+        <div class="timeline">
+          <!-- B.Sc -->
+          <div class="education-card">
+            <h3>B.Sc. in Software Engineering</h3>
+            <small>University of ilorin· 2022 — 2024</small>
+            <p>
+              Focused on Front-End development, cloud systems, and AI-assisted
+              web solutions. Gained hands-on experience with software
+              architecture and system integration.
+            </p>
+            <div class="tags">
+              <span class="tag">Software Engineering</span>
+              <span class="tag">Web Development</span>
+              <span class="tag">AI Integration</span>
+              <span class="tag">Cloud Systems</span>
+            </div>
+          </div>
+
+          <!-- Advanced Level -->
+          <div class="education-card">
+            <h3>G.C.E Advanced Level</h3>
+            <small>Victoria Island College · 2017 — 2019</small>
+            <p>
+              Completed advanced studies in technology streams and foundational
+              programming concepts while developing problem-solving and design
+              thinking skills.
+            </p>
+            <div class="tags">
+              <span class="tag">ICT</span>
+              <span class="tag">Programming</span>
+              <span class="tag">Design Thinking</span>
+              <span class="tag">Maths</span>
+            </div>
+          </div>
+
+          <!-- Ordinary Level -->
+          <div class="education-card">
+            <h3>G.C.E Ordinary Level</h3>
+            <small>Vee-Victory Science College · 2014 — 2017</small>
+            <p>
+              Built a strong foundation in information technology, mathematics,
+              and basic web principles, nurturing early interest in digital
+              innovation.
+            </p>
+            <div class="tags">
+              <span class="tag">ICT</span>
+              <span class="tag">Science</span>
+              <span class="tag">Web Basics</span>
+              <span class="tag">Innovation</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ Section -->
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-content">
+          <div class="faq-item">
+            <h3 class="faq-question">
+              What kind of website can you build?
+              <span class="faq-toggle-icon">+</span>
+            </h3>
+            <div class="faq-answer">
+              <p>
+                I specialize in responsive website, e-commerce website, landing
+                pages, porfolios, blog, and business website,
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">
+              Do you build a mobile-friendly website?
+              <span class="faq-toggle-icon">+</span>
+            </h3>
+            <div class="faq-answer">
+              <p>
+                Yes, all my website are fully responsive and optimized for
+                mobile, tablet, and destop devices.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">
+              What tools or technology do you use?
+              <span class="faq-toggle-icon">+</span>
+            </h3>
+            <div class="faq-answer">
+              <p>
+                I use HTML5, CSS, JavaScript, React, Git, and various design
+                tools like Figma, Canva, or CorelDRAW depending on the project
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">
+              How long does a project take?
+              <span class="faq-toggle-icon">+</span>
+            </h3>
+            <div class="faq-answer">
+              <p>
+                Project timelines vary depending on complexity, typically 2-8
+                weeks.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">
+              Can you redesign my existing website?
+              <span class="faq-toggle-icon">+</span>
+            </h3>
+            <div class="faq-answer">
+              <p>
+                Absolutely, I can give your current website a fresh modern look
+                and improve speed and usability.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">
+              Do you provide revisions? <span class="faq-toggle-icon">+</span>
+            </h3>
+            <div class="faq-answer">
+              <p>Yes, I offer revisions to ensure client satisfaction.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-section name-and-social">
+          <h3>Jamiu Siddiq</h3>
+          <p>
+            Building next-level digital experiences with modern web
+            technologies.
+          </p>
+        </div>
+        <div class="footer-section explore">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#professional-experience">Experiences</a></li>
+            <li><a href="#">Resume</a></li>
+          </ul>
+        </div>
+        <div class="footer-section links">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">My Profile</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact-info" style="padding: initial">
+          <h3>Contact Info</h3>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:jamiusiddiq@gmail.com" style="color: white"
+                >jamiusiddiq@outlook.com</a
+              >
+            </li>
+            <li>
+              Phone:
+              <a href="tel:+84171234567" style="color: white"
+                >+234 9024 018 884</a
+              >
+            </li>
+            <li>Location: DreamSt, NG, Street</li>
+          </ul>
+          <div class="social-icons">
+            <a
+              href="https://wa.me/message/YDRONYOBZTDSA1"
+              target="_blank"
+              aria-label="Whatsapp"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/visiondigital_1?igsh=eXRucHpxYW83aXZi"
+              target="_blank"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <a
+              href="https://www.linkedin.com/in/jamiu-siddiq-8689272aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+              aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://github.com/jamiu-lab"
+              target="_blank"
+              aria-label="GitHub"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">© 2023 Jamiu Siddiq. All rights reserved.</div>
+    </footer>
+    <button id="backToTop"></button>
+    <script
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+      ;
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
