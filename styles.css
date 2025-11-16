@@ -234,7 +234,6 @@ h2 {
 #secondTitle {
   font-family: Spooky-phantom;
   display: inline-block; /* prevents container shrinking */
-  min-width: 20ch; /* fixed width based on max number of characters */
 }
 
 .home-text {
