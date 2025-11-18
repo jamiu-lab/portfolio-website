@@ -251,7 +251,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
-  const line1 = "Hi, I'm an";
+  const line1 = "Hi, I'm a";
   const line2 = "Web Designer &";
   const line3 = "E-commerce Specialist";
 
