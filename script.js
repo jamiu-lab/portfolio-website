@@ -252,8 +252,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const line1 = "Hi, I'm an";
-  const line2 = "E-commerce Developer";
-  const line3 = "& Graphic Designer";
+  const line2 = "Web Designer &";
+  const line3 = "E-commerce Specialist";
 
   const typingHi = document.getElementById("typing-hi");
   const typingTitle = document.getElementById("typing-title");

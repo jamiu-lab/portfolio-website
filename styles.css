@@ -1471,10 +1471,12 @@ footer {
   line-height: 2.5rem;
 }
 
-.logo img {
+.Logo img {
   width: 2rem;
   border-radius: 50px;
+  margin: 0;
 }
+
 .footer-section ul {
   list-style: none;
   padding: 0;
